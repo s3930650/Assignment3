@@ -1,0 +1,61 @@
+/* Begin profile section */
+.profile {
+    margin: 8px;
+    padding: 5px 0 0 15px;
+	float: left;
+	height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+	width: 100%;
+	border-color: black;
+    border-style: solid;
+	border-radius: 16px;
+}
+
+.profile-content {
+    width: 50%;
+    padding-left: 15px;
+}
+
+.profile-mb {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+}
+
+/* Begin sub section with portrait, name, github, and student number */
+.profile-individual{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: larger;
+    font-weight: bolder;
+    gap: 5px;
+}
+
+.student-number {
+    font-weight: normal;
+    color: #adadad;
+}
+
+.profile-title img {
+    width: 32px;
+    height: 32px;
+}
+
+.profile-title img:hover {
+    opacity: 0.3;
+}
+/* End sub-section */
+
+
