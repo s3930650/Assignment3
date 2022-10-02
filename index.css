@@ -90,3 +90,15 @@ nav ul a li:hover {
     margin-top: 10px;
     list-style: none;
 }
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+td, th {
+    border: 1px solid;
+    padding: 12px 15px;
+}
+tr:nth-child(even) {
+    background-color: #e1e1e1;
+}
