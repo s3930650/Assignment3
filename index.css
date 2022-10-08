@@ -110,4 +110,9 @@ tr:nth-child(even) {
 
 .subheading {
     font-weight: bold;
+    font-size: large;
+}
+h2 {
+    text-decoration:underline; 
+    margin-bottom: 1px;
 }
