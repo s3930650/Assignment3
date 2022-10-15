@@ -116,3 +116,11 @@ h2 {
     text-decoration:underline; 
     margin-bottom: 1px;
 }
+
+.av-list li {
+    margin-bottom: 10px;
+}
+
+.av-list li span {
+    font-weight: bold;
+}
