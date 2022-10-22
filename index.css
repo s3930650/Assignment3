@@ -131,3 +131,17 @@ h2 {
   margin-right: auto;
   width: 50%;
 }
+
+.home-nav {
+    text-decoration: none; 
+    border: solid; 
+    border-color: #f5353f; 
+    color:#f5353f;
+    padding: 5px;
+    border-radius: 12px;
+}
+
+.home-nav:hover {
+    color: white;
+    background-color: #f5353f;
+}
